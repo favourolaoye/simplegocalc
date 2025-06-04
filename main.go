@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang/calculator"
+	"github.com/favourolaoye/simplegocalc/calculator"
 )
 var x float32
 var y float32

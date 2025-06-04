@@ -2,8 +2,6 @@ package calculator
 
 import "fmt"
 
-
-
 func Calc(a float32, b float32, op string) float32 {
 	if op == "sum"{
 		return a + b
