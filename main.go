@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"github.com/favourolaoye/simplegocalc/calculator"
-	"github.com/favourolaoye/simplegocalc/grader"
 )
 var x float32
 var y float32
@@ -28,7 +27,7 @@ func main() {
 	fmt.Println("Enter the Grade: ")
 	fmt.Scanln(&score)
 
-	grade:= grader.Grader(score, StudID)
+	grade:= calculator.Grader(score, StudID)
 
 	fmt.Printf("Student with ID: %v grade is: %v  and their data has been saved!", StudID, grade)
 }

@@ -19,3 +19,17 @@ func Calc(a float32, b float32, op string) float32 {
 		return 0
 	}
 }
+
+func Grader(score float32, matric string) string{
+	if score >= 70 && score <= 100{
+		return "A"
+	}else if score >= 60{
+		return "B"
+	}else if score >= 50 {
+		return "C"
+	}else if score >= 40 {
+		return "D"
+	}else {
+		return "Failed"
+	}
+}
