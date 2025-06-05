@@ -29,6 +29,8 @@ func day() string{
 	}
 }
 
+
+
 func main(){
 	fmt.Println(day())
 }
